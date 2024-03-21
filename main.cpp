@@ -39,13 +39,31 @@ class Student
 
 class Course
 {
+	 private:
+	 	string courseCode;
+	 	string courseName;
+	 	Teacher * teacher;
+	 	list<string> studentsEnrolled;
+	 	
+	 public:
 	 
+	 void addStudent(student)
+	 {
+	 	
+	 }	
+	 
+	 void removeStudent(student)
+	 {
+	 	
+	 }
+	 
+	 void viewStudent(student)
+	 {
+	 	
+	 }
 };
 int main()
 {
-	
+     return 0;
 }
-{
-	
-	return 0;
-}
+

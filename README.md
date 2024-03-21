@@ -1,2 +1,9 @@
-# OOP-Open-Ended-Lab
-repo for open ended task
+
+![56be4940051bf2e32f78eb67ffd0a8d6](https://github.com/shawaizsher/OOP-Open-Ended-Lab/assets/145105002/63002cfc-c8e9-43b9-b95c-78acb7d0d073
+
+OOP LAB 7 - OPEN ENDED 
+
+- SHAWAIZ SHER (01-131232-082)
+- HASSAN ALI (01-131232-032)
+
+PUBLIC REPOSITORY FOR OUR OPEN ENDED LAB CONSISTING OF LMS PORTAL

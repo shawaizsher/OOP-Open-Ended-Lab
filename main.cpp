@@ -10,6 +10,7 @@ class Course;  // declaration here
 
 class Student 
 {
+	
   
 };
 
@@ -24,10 +25,12 @@ class Teacher
 public:
     Teacher(string teacherID, string name, string email) : teacherID(teacherID), name(name), email(email) {}
 
+
     void assignCourse(Course* course)
     {
     	coursesTaught.push_back(course);
 	}
+	
     void removeCourse(Course* course)
     {
     	auto it = find(coursesTaught.begin(),courseTaught.end(),course)
@@ -51,10 +54,6 @@ public:
 			}
 		}
 	}
-    void addCourse(Course* course);
-    {
-    	
-	}
     const string& getID() const 
 	{
         return teacherID;
@@ -65,28 +64,6 @@ class Course
 {
     
 };
-
-
-void Teacher::assignCourse() 
-{
-    
-}
-
-void Teacher::removeCourse()
-{
-   
-}
-
-void Teacher::viewCourses()
-{
-   
-}
-
-void Teacher::addCourse() 
-{
-	
-}
-
 
 int main()
 {

@@ -1,49 +1,67 @@
 #include<iostream>
-#include<list>
-#include<vector>
-#include<string>
 #include<fstream>
+#include<vector>
+#include<algorithm>
+#include<list>
+
 using namespace std;
-class Student
+
+class Course; 
+
+class Student 
 {
-   	
+  
 };
 
-class Teacher
+class Teacher 
 {
     string teacherID;
-    string name ;
+    string name;
     string email;
-    list<string>coursesTaught;
-    
-    public:
-    	Teacher(string t,string n,string e) :teacherID(t), name(n) , email(e) {}
-    	
-    	// Methods
-    	
-    	void assignCourse()
-    	{
-    		
-		}
-		void removeCourse()
-		{
-			
-		}
-		void viewCourse()
-		{
-			
-		}
+    vector<Course*> coursesTaught;
+    vector<Course*> coursesAdded;
+
+public:
+    Teacher(string teacherID, string name, string email) : teacherID(teacherID), name(name), email(email) {}
+
+    void assignCourse(Course* course);
+    void removeCourse(Course* course);
+    void viewCourses();
+    void addCourse(Course* course);
+    const string& getID() const 
+	{
+        return teacherID;
+    }
 };
 
-class Course
+class Course 
 {
-	 
+
 };
-int main()
+
+
+void Teacher::assignCourse() 
+{
+    
+}
+
+void Teacher::removeCourse()
+{
+   
+}
+
+void Teacher::viewCourses()
+{
+   
+}
+
+void Teacher::addCourse() 
 {
 	
 }
+
+
+int main()
 {
 	
-	return 0;
 }

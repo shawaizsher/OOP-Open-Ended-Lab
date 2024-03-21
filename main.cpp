@@ -4,46 +4,66 @@
 #include<string>
 #include<fstream>
 using namespace std;
+
 class Student
 {
-   	
+	private:
+		string studentID;
+		string name;
+		string email;
+		list<string> coursesEnrolled;
+	public:
+		Stuednt(string t,string n,string e) : studentID(t), name(n) , email(e) {}
+		
+		void enrolCouse(course)
+		{
+			
+		}
+		void dropCouse(course)
+		{
+			
+		}
+		
+		void dropCourse(course)
+		{
+			
+		}
+		
+		void view course(course)
+		{
+			
+		}
+		
 };
 
-class Teacher
-{
-    string teacherID;
-    string name ;
-    string email;
-    list<string>coursesTaught;
-    
-    public:
-    	Teacher(string t,string n,string e) :teacherID(t), name(n) , email(e) {}
-    	
-    	// Methods
-    	
-    	void assignCourse()
-    	{
-    		
-		}
-		void removeCourse()
-		{
-			
-		}
-		void viewCourse()
-		{
-			
-		}
-};
 
 class Course
 {
+	 private:
+	 	string courseCode;
+	 	string courseName;
+	 	Teacher * teacher;
+	 	list<string> studentsEnrolled;
+	 	
+	 public:
 	 
+	 void addStudent(student)
+	 {
+	 	
+	 }	
+	 
+	 void removeStudent(student)
+	 {
+	 	
+	 }
+	 
+	 void viewStudent(student)
+	 {
+	 	
+	 }
 };
 int main()
 {
-	
+     return 0;
 }
-{
-	
-	return 0;
-}
+

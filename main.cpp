@@ -2,34 +2,37 @@
 #include<list>
 #include<vector>
 #include<string>
+#include<fstream>
 using namespace std;
 class Student
 {
-   string studentID;
-   string name ;
-   string email ;
-   list<string>coursesEnrolled;
-   
-   // methods
-   public:
-   	void enrolCourse(course)
-   	{
-   		
-	   }
-	 void dropCourse(course)
-	 {
-	 	
-	   }  
-	void viewCourses(course)
-	{
-		
-	}
    	
 };
 
 class Teacher
 {
+    string teacherID;
+    string name ;
+    string email;
+    list<string>coursesTaught;
     
+    public:
+    	Teacher(string t,string n,string e) :teacherID(t), name(n) , email(e) {}
+    	
+    	// Methods
+    	
+    	void assignCourse()
+    	{
+    		
+		}
+		void removeCourse()
+		{
+			
+		}
+		void viewCourse()
+		{
+			
+		}
 };
 
 class Course
@@ -37,6 +40,9 @@ class Course
 	 
 };
 int main()
+{
+	
+}
 {
 	
 	return 0;

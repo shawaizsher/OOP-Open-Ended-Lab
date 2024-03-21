@@ -1,5 +1,6 @@
 
-![56be4940051bf2e32f78eb67ffd0a8d6](https://github.com/shawaizsher/OOP-Open-Ended-Lab/assets/145105002/63002cfc-c8e9-43b9-b95c-78acb7d0d073
+![bahria-university-logo](https://github.com/shawaizsher/OOP-Open-Ended-Lab/assets/145105002/5fd9ce67-e9e0-40e1-9a8d-3d6e0dc68b67)
+
 
 OOP LAB 7 - OPEN ENDED 
 

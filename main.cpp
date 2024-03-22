@@ -206,8 +206,10 @@ void teacherRegister(vector<Teacher*>& teachers)
     cout << "Enter teacher ID: ";
     cin >> id;
     cout << "Enter teacher name: ";
-    cin >> name;
+    cin.ignore();
+    getline(cin,name);
     cout << "Enter teacher email: ";
+    cin.ignore();
     cin >> email;
     Teacher* newTeacher = new Teacher(id, name, email);
     teachers.push_back(newTeacher);
@@ -445,7 +447,8 @@ void saveData(const string& studentFile, const string& teacherFile, const string
     }
 
     // Save students
-    for (const auto student : students) {
+    for (const auto student : students) 
+	{
         studentFileStream << student->getID() << ',' << student->getName() << ',' << student->getEmail() << '\n';
     }
     cout << "Student data saved successfully." << endl;
